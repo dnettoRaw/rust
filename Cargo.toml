@@ -1,0 +1,47 @@
+[package]
+name = "rust-api"
+version = "0.1.0"
+authors = ["dnettoRaw <me@dnetto.dev>"]
+edition = "2018"
+repository = "https://github.com/dnettoRaw/rust"
+description = "this is simple teste repo for my personal progression in rust GUI / API"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = "0.3"
+
+[features]
+verbose = []
+
+[workspace]
+members = [
+     "examples/bezier_tool",
+     "solutions/sqlite_tool",
+]
+#     "examples/clock",
+#     "examples/color_palette",
+#     "examples/counter",
+#     "examples/custom_widget",
+#     "examples/download_progress",
+#     "examples/events",
+#     "examples/game_of_life",
+#     "examples/geometry",
+#     "examples/integration_opengl",
+#     "examples/integration_wgpu",
+#     "examples/menu",
+#     "examples/pane_grid",
+#     "examples/pick_list",
+#     "examples/pokedex",
+#     "examples/progress_bar",
+#     "examples/qr_code",
+#     "examples/scrollable",
+#     "examples/solar_system",
+#     "examples/stopwatch",
+#     "examples/styling",
+#     "examples/svg",
+#     "examples/todos",
+#     "examples/tooltip",
+#     "examples/tour",
+#     "examples/url_handler",
+# ]
